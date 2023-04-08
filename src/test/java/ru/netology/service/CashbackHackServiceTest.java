@@ -10,8 +10,8 @@ public class CashbackHackServiceTest {
     @Test
     public void cashBackTest() {
         CashbackHackService service = new CashbackHackService();
-        int amount = 800;
-        int expected = 200;
+        int amount = 700;
+        int expected = 300;
         int actual = service.remain(amount);
         assertEquals(actual, expected);
 
