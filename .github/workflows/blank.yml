@@ -13,6 +13,8 @@ on:
     - 'master'
     - 'testng'
     - 'junit4'
+  pull_request:
+      
 
 
 jobs:
