@@ -27,7 +27,7 @@ public class CashbackHackServiceTest {
     @Test
     public void testServiceWhenAmountMoreThen100k() {
         int amount = 100020;
-        int expected = 98;
+        int expected = 980;
         CashbackHackService service = new CashbackHackService();
         int actual = service.remain(amount);
         assertEquals(actual, expected);
